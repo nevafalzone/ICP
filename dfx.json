@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "canisters": {
+    "backend_1": {
+      "type": "rust",
+      "package": "sample_ic_web3_macros_backend",
+      "candid": "src/sample_ic_web3_macros_backend/sample_ic_web3_macros_backend.did"
+    },
+    "backend_2": {
+      "type": "rust",
+      "package": "sample_ic_web3_macros_backend",
+      "candid": "src/sample_ic_web3_macros_backend/sample_ic_web3_macros_backend.did"
+    },
+    "simple_backend": {
+      "type": "rust",
+      "package": "be_2",
+      "candid": "src/be_2/be_2.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "output_env_file": ".env"
+}

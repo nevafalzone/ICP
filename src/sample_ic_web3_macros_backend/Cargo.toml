@@ -1,0 +1,16 @@
+[package]
+name = "sample_ic_web3_macros_backend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+candid = "0.8"
+ic-cdk = "0.7"
+ic-cdk-timers = "0.1" # Feel free to remove this dependency if you don't need timers
+
+ic-web3-macros = { path = "../../../../../ic-web3-macros" }
